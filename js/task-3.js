@@ -11,6 +11,13 @@ if (messageLowerCase.includes("spam") || messageLowerCase.includes("sale")) {
 }
 }
 
+// Або
+
+// function checkForSpam(message) {
+//     const messageLowerCase  = message.toLowerCase()
+//     return messageLowerCase.includes("spam") || messageLowerCase.includes("sale");
+// }
+
 console.log(checkForSpam("Latest technology news")); // false
 console.log(checkForSpam("JavaScript weekly newsletter")); // false
 console.log(checkForSpam("Get best sale offers now!")); // true
